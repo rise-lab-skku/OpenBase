@@ -1,5 +1,11 @@
 # OpenBase
 
+Modified for R-Viz only simulation.
+
+---
+
+< Original Readme >
+
 ![Gazebo GUI with OpenBase robot](images/Gazebo_GUI.png)
 
 An omnidirectional mobile platform, with a 3 omnidirectional wheels layout, with two objectives: to facilitate the development of mobile robot control algorithms and to facilitate the development of mobile robots in general by providing a ready to use movement solution.

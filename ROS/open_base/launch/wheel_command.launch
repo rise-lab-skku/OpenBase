@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="open_base" type="wheel_command" name="wheel_command" output="screen">
+        <param name="linear_velocity_X" value="0.0"/>
+        <param name="linear_velocity_Y" value="0.0"/>
+        <param name="angular_velocity_Z" value="0.0"/>
+    </node>
+</launch>

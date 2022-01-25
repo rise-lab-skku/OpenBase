@@ -101,5 +101,14 @@ target_link_libraries(
 )
 add_dependencies(${PROJECT_NAME}_main open_base_generate_messages_cpp)
 
+# ====================================
+add_executable(wheel_command src/wheel_command.cpp)
+target_link_libraries(
+  ${PROJECT_NAME}_wheel_command
+  ${catkin_LIBRARIES}
+  eigen3
+)
+add_dependencies(${PROJECT_NAME}_wheel_command open_base_generate_messages_cpp)
+
 
 set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
