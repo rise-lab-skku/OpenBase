@@ -6,12 +6,13 @@
 	/>
 	<arg
 		name="paused"
-		default="true"
+		default="false"
 	/>
 	<arg
 		name="height"
 		default="0"
 	/>
+	<!--
 	<include file="$(find open_base)/launch/gazebo controller.launch">
 
 		<arg
@@ -22,8 +23,8 @@
 			name="height"
 			value="$(arg height)"
 		/>
-
 	</include>
+	-->
 	<node
 		name="controller_spawner"
 		pkg="controller_manager"
@@ -39,7 +40,7 @@
 		type="open_base_odometry"
 		ns="open_base"
 		output="screen"
-		args="pose_cheat"
+		args="sensor"
 	></node><!-- args="pose_cheat" -->
 	<node
 		name="kinematics"
