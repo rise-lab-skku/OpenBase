@@ -273,7 +273,7 @@ Visualization Manager:
           Value: false
         right_roller_w_link:
           Value: false
-      Marker Scale: 1
+      Marker Scale: 0.03
       Name: TF
       Show Arrows: false
       Show Axes: true
@@ -337,7 +337,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: origin_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
