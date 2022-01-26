@@ -12,7 +12,7 @@
 		<param
 			name="use_gui"
 			type="Boolean"
-			value="false"
+			value="true"
 		/>
 		<remap
 			from="/joint_states"

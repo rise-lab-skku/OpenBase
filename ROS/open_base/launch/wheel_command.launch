@@ -1,7 +1,8 @@
 <launch>
+    <!-- <arg name="node_start_delay" default="1.0" />  -->
+
     <node pkg="open_base" type="wheel_command" name="wheel_command" output="screen">
-        <param name="linear_velocity_X" value="0.0"/>
-        <param name="linear_velocity_Y" value="0.0"/>
-        <param name="angular_velocity_Z" value="0.0"/>
     </node>
+
+	<!-- <include file="$(find open_base)/launch/rviz.launch" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/> -->
 </launch>
