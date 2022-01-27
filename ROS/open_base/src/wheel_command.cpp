@@ -163,7 +163,7 @@ int main(int argc, char **argv)
     ros::Rate rate(50);
     while (ros::ok() && (i < max_point))
     {
-        // 모바일 키네마틱 계산
+        // 현재 목표로 할 i번째 경유점 가져오기
         geometry_msgs::Pose2D local_target = waypoints.at(i);
 
         // Find linear velocity, angular velocity
